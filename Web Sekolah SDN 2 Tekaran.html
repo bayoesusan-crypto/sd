@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD Negeri 2 Tekaran - Website Resmi</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <header class="bg-blue-800 text-white sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-white rounded-full flex items-center justify-center text-blue-800 font-bold text-xl">
+                    🏫
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg leading-tight">SD NEGERI 2 TEKARAN</h1>
+                    <p class="text-xs text-blue-200">NPSN: 20310983 | Terakreditasi A</p>
+                </div>
+            </div>
+            <nav class="hidden lg:flex space-x-6 font-medium items-center">
+                <a href="#" class="hover:text-yellow-300 transition">Beranda</a>
+                <a href="#profil" class="hover:text-yellow-300 transition">Profil & Identitas</a>
+                <a href="#guru" class="hover:text-yellow-300 transition">Profil Guru</a>
+                <a href="#sarpras" class="hover:text-yellow-300 transition">Sarpras</a>
+                
+                <div class="relative group">
+                    <button class="bg-yellow-400 text-blue-900 px-3 py-1.5 rounded-md font-semibold hover:bg-yellow-300 transition flex items-center gap-1 cursor-pointer">
+                        Layanan Publik ▾
+                    </button>
+                    <div class="absolute right-0 mt-2 w-64 bg-white text-gray-800 rounded-md shadow-xl py-2 hidden group-hover:block border border-gray-100 max-h-[400px] overflow-y-auto">
+                        <a href="#layanan" class="block px-4 py-2 text-sm font-semibold text-blue-800">Layanan Utama:</a>
+                        <a href="#ppdb-online-detail" class="block px-4 py-2 text-xs text-gray-600 hover:bg-blue-50 transition pl-6">PPDB Online</a>
+                        <a href="#layanan" class="block px-4 py-2 text-xs text-gray-600 hover:bg-blue-50 transition pl-6">Bantuan PIP / KIP</a>
+                        <a href="#legalisir-detail" class="block px-4 py-2 text-xs text-gray-600 hover:bg-blue-50 transition pl-6">Surat & Legalisir</a>
+                        
+                        <div class="border-t border-gray-100 my-1"></div>
+                        <a href="#layanan-sekolah" class="block px-4 py-2 text-sm font-semibold text-blue-800">Fasilitas & Pendukung:</a>
+                        <a href="#layanan-sekolah" class="block px-4 py-2 text-xs text-gray-600 hover:bg-blue-50 transition pl-6">Pelayanan Perpustakaan</a>
+                        <a href="#layanan-sekolah" class="block px-4 py-2 text-xs text-gray-600 hover:bg-blue-50 transition pl-6">Pelayanan UKS</a>
+                        <a href="#layanan-sekolah" class="block px-4 py-2 text-xs text-gray-600 hover:bg-blue-50 transition pl-6">Bimbingan Konseling (BK)</a>
+                        <a href="#layanan-sekolah" class="block px-4 py-2 text-xs text-gray-600 hover:bg-blue-50 transition pl-6">Pelayanan Mutasi Siswa</a>
+                        <a href="#layanan-sekolah" class="block px-4 py-2 text-xs text-gray-600 hover:bg-blue-50 transition pl-6">Pelayanan Legalisir Berkas</a>
+                        <a href="#layanan-sekolah" class="block px-4 py-2 text-xs text-gray-600 hover:bg-blue-50 transition pl-6">Pelayanan Koperasi</a>
+                    </div>
+                </div>
+                
+                <a href="#kontak" class="hover:text-yellow-300 transition">Hubungi Kami</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-gradient-to-r from-blue-800 to-indigo-900 text-white py-20 px-6 text-center">
+        <div class="max-w-3xl mx-auto">
+            <span class="bg-blue-700 text-xs uppercase tracking-wider font-bold px-3 py-1 rounded-full text-yellow-300">Situs Resmi Sekolah</span>
+            <h2 class="text-3xl md:text-5xl font-extrabold mt-4 mb-4">Membentuk Generasi Cerdas, Berkarakter & Unggul</h2>
+            <p class="text-md md:text-lg text-blue-100 mb-8">Selamat datang di portal informasi digital SD Negeri 2 Tekaran, Kecamatan Selogiri, Kabupaten Wonogiri.</p>
+            <a href="#layanan" class="bg-yellow-400 text-blue-950 font-bold px-6 py-3 rounded-lg shadow-md hover:bg-yellow-300 transition inline-block">
+                Lihat Layanan Publik
+            </a>
+        </div>
+    </section>
+
+    <section id="profil" class="container mx-auto px-6 py-16">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold text-gray-900">Profil & Identitas Sekolah</h3>
+            <div class="w-16 h-1 bg-blue-600 mx-auto mt-2"></div>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                <h4 class="text-xl font-bold mb-4 text-blue-800 flex items-center gap-2">
+                    <span>📋</span> Identitas Satuan Pendidikan
+                </h4>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left">
+                        <tbody>
+                            <tr class="border-b border-gray-100"><td class="py-3 font-semibold text-gray-600 w-1/3">Nama Sekolah</td><td class="py-3 text-gray-900">: SD Negeri 2 Tekaran</td></tr>
+                            <tr class="border-b border-gray-100"><td class="py-3 font-semibold text-gray-600">NPSN</td><td class="py-3 text-gray-900">: 20310983</td></tr>
+                            <tr class="border-b border-gray-100"><td class="py-3 font-semibold text-gray-600">Status Sekolah</td><td class="py-3 text-gray-900">: Negeri</td></tr>
+                            <tr class="border-b border-gray-100"><td class="py-3 font-semibold text-gray-600">Bentuk Pendidikan</td><td class="py-3 text-gray-900">: SD (Jenjang Dikdas)</td></tr>
+                            <tr class="border-b border-gray-100"><td class="py-3 font-semibold text-gray-600">Akreditasi</td><td class="py-3 text-gray-900"><span class="bg-green-100 text-green-800 text-xs font-bold px-2.5 py-0.5 rounded">: A</span></td></tr>
+                            <tr class="border-b border-gray-100"><td class="py-3 font-semibold text-gray-600">Alamat</td><td class="py-3 text-gray-900">: Ngaliyan, Desa Gemantar</td></tr>
+                            <tr class="border-b border-gray-100"><td class="py-3 font-semibold text-gray-600">Kecamatan</td><td class="py-3 text-gray-900">: Kec. Selogiri</td></tr>
+                            <tr><td class="py-3 font-semibold text-gray-600">Kabupaten / Provinsi</td><td class="py-3 text-gray-900">: Kab. Wonogiri, Jawa Tengah</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100">
+                <h4 class="text-xl font-bold mb-4 text-blue-800 flex items-center gap-2">
+                    <span>⚖️</span> Dokumen & Perizinan Resmi
+                </h4>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm text-left">
+                        <tbody>
+                            <tr class="border-b border-gray-100"><td class="py-3 font-semibold text-gray-600 w-1/3">Kementerian Pembina</td><td class="py-3 text-gray-900">: Kementerian Pendidikan Dasar dan Menengah</td></tr>
+                            <tr class="border-b border-gray-100"><td class="py-3 font-semibold text-gray-600">Naungan</td><td class="py-3 text-gray-900">: Pemerintah Daerah</td></tr>
+                            <tr class="border-b border-gray-100"><td class="py-3 font-semibold text-gray-600">No. SK Pendirian</td><td class="py-3 text-gray-900">: 001/1952</td></tr>
+                            <tr class="border-b border-gray-100"><td class="py-3 font-semibold text-gray-600">Tanggal SK Pendirian</td><td class="py-3 text-gray-900">: 01-01-1952</td></tr>
+                            <tr class="border-b border-gray-100"><td class="py-3 font-semibold text-gray-600">Nomor SK Operasional</td><td class="py-3 text-gray-900">: Nomor 420/264/HK/2025</td></tr>
+                            <tr><td class="py-3 font-semibold text-gray-600">Tanggal SK Operasional</td><td class="py-3 text-gray-900">: 15-10-2025</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="guru" class="bg-gray-100 py-16 px-6 scroll-mt-16">
+        <div class="container mx-auto">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-gray-900">Profil Guru & Tenaga Kependidikan</h3>
+                <p class="text-gray-600 mt-2">Mengenal lebih dekat para pendidik hebat di SD Negeri 2 Tekaran.</p>
+                <div class="w-16 h-1 bg-blue-600 mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 text-center hover:shadow-md transition">
+                    <div class="w-24 h-24 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden border-2 border-blue-600 flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=200&auto=format&fit=crop" alt="Foto Kepala Sekolah" class="w-full h-full object-cover error-fallback">
+                    </div>
+                    <h4 class="font-bold text-base text-gray-900">Tri Warsito, S.Pd, M.Pd.</h4>
+                    <p class="text-xs text-blue-600 font-semibold mb-2">Kepala Sekolah</p>
+                    <p class="text-xs text-gray-500">NIP. 196701191993111001</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 text-center hover:shadow-md transition">
+                    <div class="w-24 h-24 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden border-2 border-blue-600 flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1580894732444-8fecef2601da?q=80&w=200&auto=format&fit=crop" alt="Ibu Endang Daryanti" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-base text-gray-900">Endang Daryanti, S.Pd.</h4>
+                    <p class="text-xs text-blue-600 font-semibold mb-2">Guru Kelas 1 / Petugas PPDB</p>
+                    <p class="text-xs text-gray-500">NIP. 197810272022212008</p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 text-center hover:shadow-md transition">
+                    <div class="w-24 h-24 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden border-2 border-blue-600 flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop" alt="Ibu Ninuk Dwi Septiari" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-base text-gray-900">Ninuk Dwi Septiari, S.Pd.</h4>
+                    <p class="text-xs text-blue-600 font-semibold mb-2">Guru Kelas 2 / Petugas PPDB</p>
+                    <p class="text-xs text-gray-500">NIP. 198109262014062005</p>
+		 
+                </div>
+
+  		<div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 text-center hover:shadow-md transition">
+                    <div class="w-24 h-24 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden border-2 border-blue-600 flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1782379636388-9559c76f3a4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D=80&w=200&auto=format&fit=crop" alt="Bpk. Bayu Triyono, S.Pd" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-base text-gray-900">Bayu Triyono, S.Pd.</h4>
+                    <p class="text-xs text-blue-600 font-semibold mb-2">Guru Kelas 5</p>
+                    <p class="text-xs text-gray-500">NIP. 198803152019021001</p>
+                </div>
+
+		<div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 text-center hover:shadow-md transition">
+                    <div class="w-24 h-24 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden border-2 border-blue-600 flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop" alt="Ibu Ninuk Dwi Septiari" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-base text-gray-900">Silvian Risky Pradira Susilo, S.Pd.</h4>
+                    <p class="text-xs text-blue-600 font-semibold mb-2">Guru Kelas 3</p>
+                    <p class="text-xs text-gray-500">NIP. 199206272023212023</p>
+		 
+                </div>
+
+		
+		 <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 text-center hover:shadow-md transition">
+                    <div class="w-24 h-24 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden border-2 border-blue-600 flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop" alt="Ibu Ninuk Dwi Septiari" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-base text-gray-900">Niswah Kumalawati, S.Pd.</h4>
+                    <p class="text-xs text-blue-600 font-semibold mb-2">Guru Kelas 4</p>
+                    <p class="text-xs text-gray-500">NIP. 196702072005012003</p>
+		 
+                </div>
+		
+		 <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 text-center hover:shadow-md transition">
+                    <div class="w-24 h-24 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden border-2 border-blue-600 flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop" alt="Ibu Ninuk Dwi Septiari" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-base text-gray-900">Dewi Apriyanti Supartini, S.Pd.</h4>
+                    <p class="text-xs text-blue-600 font-semibold mb-2">Guru Kelas 6 / Petugas PPDB</p>
+                    <p class="text-xs text-gray-500">NIP. 198504022022212023</p>
+		 
+                </div>
+
+		 <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 text-center hover:shadow-md transition">
+                    <div class="w-24 h-24 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden border-2 border-blue-600 flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop" alt="Ibu Ninuk Dwi Septiari" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-base text-gray-900">Chusnul Dwi Chotimah, S.Pd.</h4>
+                    <p class="text-xs text-blue-600 font-semibold mb-2">Guru PAI</p>
+                    <p class="text-xs text-gray-500">NIP. </p>
+		 
+                </div>
+
+		 <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 text-center hover:shadow-md transition">
+                    <div class="w-24 h-24 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden border-2 border-blue-600 flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop" alt="Ibu Ninuk Dwi Septiari" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-base text-gray-900">Ayu, S.Pd.</h4>
+                    <p class="text-xs text-blue-600 font-semibold mb-2">Guru Ekstra BTA</p>
+                    <p class="text-xs text-gray-500">NIP. </p>
+		 
+                </div>
+
+		 <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-200 text-center hover:shadow-md transition">
+                    <div class="w-24 h-24 mx-auto mb-4 bg-gray-200 rounded-full overflow-hidden border-2 border-blue-600 flex items-center justify-center">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop" alt="Ibu Ninuk Dwi Septiari" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="font-bold text-base text-gray-900">Saidi.</h4>
+                    <p class="text-xs text-blue-600 font-semibold mb-2">Petugas Keamanan</p>
+                    <p class="text-xs text-gray-500">NIP. 19880923XXXXXXXXXX</p>
+		 
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="layanan" class="bg-blue-50 py-16 px-6 scroll-mt-16">
+        <div class="container mx-auto">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-gray-900">Layanan Publik (Administrasi Umum)</h3>
+                <p class="text-gray-600 mt-2">Akses cepat pelayanan kesiswaan dan persuratan resmi sekolah.</p>
+                <div class="w-16 h-1 bg-blue-600 mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="text-4xl mb-3">📝</div>
+                    <h4 class="font-bold text-lg mb-2">PPDB Online</h4>
+                    <p class="text-xs text-gray-600 mb-4">Informasi pendaftaran dan seleksi siswa baru (kelas 1) sesuai Standar Pelayanan SK No. 4/2025.</p>
+                    <a href="#ppdb-online-detail" class="text-blue-600 font-semibold text-sm hover:underline">Buka Layanan &rarr;</a>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="text-4xl mb-3">💳</div>
+                    <h4 class="font-bold text-lg mb-2">Bantuan PIP / KIP</h4>
+                    <p class="text-xs text-gray-600 mb-4">Pengajuan dan pengecekan status Program Indonesia Pintar bagi siswa prasejahtera.</p>
+                    <a href="#" class="text-blue-600 font-semibold text-sm hover:underline">Cek Status &rarr;</a>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="text-4xl mb-3">🎓</div>
+                    <h4 class="font-bold text-lg mb-2">Surat & Legalisir</h4>
+                    <p class="text-xs text-gray-600 mb-4">Pelayanan pembuatan surat keterangan aktif sekolah serta alur legalisir ijazah alumni resmi.</p>
+                    <a href="#legalisir-detail" class="text-blue-600 font-semibold text-sm hover:underline">Ajukan Dokumen &rarr;</a>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-center hover:shadow-md transition">
+                    <div class="text-4xl mb-3">📣</div>
+                    <h4 class="font-bold text-lg mb-2">Kotak Pengaduan</h4>
+                    <p class="text-xs text-gray-600 mb-4">Sampaikan masukan, saran, atau aduan wali murid demi meningkatkan kualitas mengajar.</p>
+                    <a href="https://www.lapor.go.id/" target="_blank" class="text-blue-600 font-semibold text-sm hover:underline">Kirim via LAPOR! &rarr;</a>
+                </div>
+            </div>
+
+            <div class="max-w-4xl mx-auto space-y-8">
+                <div id="ppdb-online-detail" class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 scroll-mt-24">
+                    <div class="flex items-center space-x-3 mb-6 border-b border-gray-100 pb-4">
+                        <span class="text-2xl">📋</span>
+                        <div>
+                            <h4 class="text-xl font-bold text-gray-900">Ketentuan Pendaftaran PPDB Online</h4>
+                            <p class="text-xs text-gray-500">Standar Pelayanan Sistem Penerimaan Murid Baru (SPMB) SD Negeri 2 Tekaran</p>
+                        </div>
+                    </div>
+                    
+                    <div class="space-y-4 text-sm leading-relaxed text-gray-700">
+                        <div>
+                            <h5 class="font-bold text-blue-800 text-base mb-1">A. Jalur Penerimaan &amp; Kriteria Seleksi</h5>
+                            <p class="text-xs text-gray-600">Penerimaan dilaksanakan secara terbuka, objektif, akuntabel, dan tidak diskriminatif berdasarkan sistem zonasi yang mempertimbangkan usia anak serta daya tampung sekolah.</p>
+                            <ul class="list-disc pl-5 mt-1 text-xs text-gray-600 space-y-1">
+                                <li><strong>Jalur Domisili:</strong> Sesuai wilayah terdekat dengan sekolah.</li>
+                                <li><strong>Jalur Afirmasi:</strong> Bagi siswa dari keluarga ekonomi tidak mampu atau penyandang disabilitas.</li>
+                                <li><strong>Jalur Mutasi:</strong> Untuk anak dengan perpindahan tugas orang tua/wali atau anak guru.</li>
+                            </ul>
+                            <p class="text-xs italic text-gray-500 mt-2">Apabila pendaftar melebihi kuota, seleksi diprioritaskan berdasarkan urutan usia yang lebih tua dan jarak domisili sesuai alamat Kartu Keluarga.</p>
+                        </div>
+
+                        <div>
+                            <h5 class="font-bold text-blue-800 text-base mb-1">B. Persyaratan Administrasi</h5>
+                            <ul class="list-decimal pl-5 text-xs text-gray-600 space-y-1">
+                                <li>Akta Kelahiran Asli dan Fotokopi (Usia minimal 6 tahun pada 1 Juli tahun berjalan).</li>
+                                <li>Fotokopi Kartu Keluarga (KK).</li>
+                                <li>Fotokopi KTP Orang Tua / Wali.</li>
+                                <li>Pas foto berwarna ukuran 3x4 sebanyak 2 lembar.</li>
+                                <li>Fotokopi bukti pendukung seperti KIP/PKH/KKS (Khusus jalur Afirmasi).</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h5 class="font-bold text-blue-800 text-base mb-1">C. Mekanisme &amp; Prosedur Alur Pendaftaran</h5>
+                            <div class="bg-gray-50 p-4 rounded-lg border border-gray-100 text-xs text-gray-600 space-y-1.5">
+                                <p><strong>1. Pengumuman:</strong> Diinformasikan oleh sekolah secara terbuka minimal 14 hari sebelum pendaftaran dimulai.</p>
+                                <p><strong>2. Pendaftaran:</strong> Mengisi formulir pendaftaran daring dan melampirkan seluruh dokumen syarat berkas.</p>
+                                <p><strong>3. Verifikasi:</strong> Panitia memeriksa kelengkapan berkas. Ketidaksesuaian berkas berisiko pembatalan/diskualifikasi.</p>
+                                <p><strong>4. Pengumuman Hasil:</strong> Pengumuman kelulusan dipublikasikan secara transparan melalui papan sekolah atau platform online.</p>
+                                <p><strong>5. Daftar Ulang:</strong> Peserta yang diterima wajib melakukan konfirmasi ulang. Ketidakhadiran dianggap mengundurkan diri.</p>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                            <div class="bg-blue-50 p-3.5 rounded-xl border border-blue-100">
+                                <h6 class="font-bold text-blue-900 text-xs mb-1">🕒 Jangka Waktu &amp; Jam Layanan Informasi</h6>
+                                <p class="text-xs text-gray-600">Penyelesaian terjadwal sesuai kalender pendidikan khusus PPDB.</p>
+                                <p class="text-xs font-semibold mt-1 text-gray-700">Waktu Pelayanan Informasi:</p>
+                                <p class="text-xs text-gray-600">Senin – Kamis: 08.00 – 12.00 WIB | Jumat – Sabtu: 08.00 – 10.00 WIB</p>
+                            </div>
+                            <div class="bg-green-50 p-3.5 rounded-xl border border-green-100">
+                                <h6 class="font-bold text-green-900 text-xs mb-1">💰 Biaya / Tarif</h6>
+                                <p class="text-xl font-extrabold text-green-700">Rp 0 (GRATIS)</p>
+                                <p class="text-xs text-gray-600 mt-1">Seluruh proses pendaftaran ini bebas dari biaya pengutan apapun.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="text-xs text-gray-500 border-t border-gray-100 pt-3 flex flex-col sm:flex-row sm:justify-between gap-1">
+                            <p><strong>Petugas Pelaksana:</strong> Ibu Endang Daryanti, S.Pd. &amp; Ibu Ninuk Dwi Septiari, S.Pd.</p>
+                            <p>📍 Sekretariat Pendaftaran SDN 2 Tekaran</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="legalisir-detail" class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 scroll-mt-24">
+                    <div class="flex items-center space-x-3 mb-6 border-b border-gray-100 pb-4">
+                        <span class="text-2xl">🎓</span>
+                        <div>
+                            <h4 class="text-xl font-bold text-gray-900">Ketentuan Pelayanan Legalisir Dokumen</h4>
+                            <p class="text-xs text-gray-500">Standar Pelayanan Pengesahan Fotokopi Ijazah / STTB Terakreditasi</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4 text-sm leading-relaxed text-gray-700">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <h5 class="font-bold text-blue-800 text-xs uppercase tracking-wider mb-2">📋 Persyaratan Berkas</h5>
+                                <p class="text-xs text-gray-600">Pemohon wajib membawa dan menunjukkan:</p>
+                                <ul class="list-disc pl-5 mt-1 text-xs text-gray-600 space-y-1">
+                                    <li>Dokumen Asli (Ijazah / STTB / SKHU / SKHUN).</li>
+                                    <li>Fotokopi dokumen yang akan dilegalisasi (bersih dan jelas).</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-blue-800 text-xs uppercase tracking-wider mb-2">🔄 Mekanisme &amp; Prosedur</h5>
+                                <ol class="list-decimal pl-5 text-xs text-gray-600 space-y-1">
+                                    <li>Pemohon datang langsung membawa berkas ke Tata Usaha.</li>
+                                    <li>Petugas memeriksa kesesuaian antara dokumen asli dan fotokopi.</li>
+                                    <li>Dokumen yang sesuai diberi stempel sah dan ditandatangani Kepala Sekolah.</li>
+                                    <li>Dokumen diserahkan kembali kepada pemohon.</li>
+                                </ol>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
+                            <div class="bg-blue-50 p-3.5 rounded-xl border border-blue-100">
+                                <h6 class="font-bold text-blue-900 text-xs mb-1">🕒 Jangka Waktu &amp; Jam Layanan Pelayanan</h6>
+                                <p class="text-xs text-gray-600 font-semibold">Maksimal 1 (satu) hari kerja selesai.</p>
+                                <p class="text-xs text-gray-500 mt-1">Jadwal Operasional Ruang Kerja Pelayanan:</p>
+                                <ul class="text-xs text-gray-600 list-none space-y-0.5">
+                                    <li>Senin – Kamis : 07.00 – 14.00 WIB</li>
+                                    <li>Jumat : 07.00 – 11.00 WIB</li>
+                                    <li>Sabtu : 07.00 – 12.30 WIB</li>
+                                </ul>
+                            </div>
+                            <div class="bg-green-50 p-3.5 rounded-xl border border-green-100">
+                                <h6 class="font-bold text-green-900 text-xs mb-1">💰 Biaya Pengurusan</h6>
+                                <p class="text-xl font-extrabold text-green-700">Rp 0 (GRATIS)</p>
+                                <p class="text-xs text-gray-600 mt-1">Tidak dipungut biaya retribusi dalam bentuk apapun.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="layanan-sekolah" class="py-16 px-6 bg-white scroll-mt-16">
+        <div class="container mx-auto">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold text-gray-900">Layanan Publik (Fasilitas & Pendukung)</h3>
+                <p class="text-gray-600 mt-2">Sistem pelayanan digital terintegrasi untuk mendukung kegiatan belajar, kesehatan, dan komunitas.</p>
+                <div class="w-16 h-1 bg-green-600 mx-auto mt-2"></div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                <div class="border border-gray-100 p-6 rounded-xl shadow-sm bg-gray-50 hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-3 mb-3">
+                            <span class="text-3xl">📚</span>
+                            <h4 class="font-bold text-lg text-gray-800">Pelayanan Perpustakaan</h4>
+                        </div>
+                        <p class="text-xs text-gray-600 mb-4">Katalog buku digital, peminjaman buku teks pelajaran, dan pelaporan kunjungan literasi siswa.</p>
+                        <a href="#" class="text-blue-600 font-semibold text-xs hover:underline flex items-center gap-1 mb-3">Akses Perpustakaan &rarr;</a>
+                    </div>
+                    <div class="mt-auto w-full">
+                        <iframe src="https://drive.google.com/file/d/1NvsPsnCx_x6U4DuHLnbSvMbQKJsyFrwl/preview" class="w-full h-80 rounded border border-gray-200"></iframe>
+                    </div>
+                </div>
+
+                <div class="border border-gray-100 p-6 rounded-xl shadow-sm bg-gray-50 hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-3 mb-3">
+                            <span class="text-3xl">🩺</span>
+                            <h4 class="font-bold text-lg text-gray-800">Pelayanan UKS</h4>
+                        </div>
+                        <p class="text-xs text-gray-600 mb-4">Layanan pemeriksaan kesehatan berkala siswa, kartu rekam medis sekolah, dan edukasi gizi anak.</p>
+                        <a href="#" class="text-blue-600 font-semibold text-xs hover:underline flex items-center gap-1 mb-3">Hubungi UKS &rarr;</a>
+                    </div>
+                    <div class="mt-auto w-full">
+                        <iframe src="https://drive.google.com/file/d/14MyULPpikqK_colcuUCvPVyAn0EEEkcg/preview" class="w-full h-80 rounded border border-gray-200"></iframe>
+                    </div>
+                </div>
+
+                <div class="border border-gray-100 p-6 rounded-xl shadow-sm bg-gray-50 hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-3 mb-3">
+                            <span class="text-3xl">🤝</span>
+                            <h4 class="font-bold text-lg text-gray-800">Bimbingan Konseling</h4>
+                        </div>
+                        <p class="text-xs text-gray-600 mb-4">Konsultasi tumbuh kembang anak, pemantauan perilaku positif, dan layanan aduan anti-perundungan (bullying).</p>
+                        <a href="#" class="text-blue-600 font-semibold text-xs hover:underline flex items-center gap-1 mb-3">Jadwalkan Konseling &rarr;</a>
+                    </div>
+                    <div class="mt-auto w-full">
+                        <iframe src="https://drive.google.com/file/d/14MyULPpikqK_colcuUCvPVyAn0EEEkcg/preview" class="w-full h-80 rounded border border-gray-200"></iframe>
+                    </div>
+                </div>
+
+                <div class="border border-gray-100 p-6 rounded-xl shadow-sm bg-gray-50 hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-3 mb-3">
+                            <span class="text-3xl">🚨</span>
+                            <h4 class="font-bold text-lg text-gray-800">Mutasi Siswa</h4>
+                        </div>
+                        <p class="text-xs text-gray-600 mb-4">Panduan layanan mutasi siswa masuk maupun keluar.</p>
+                        <a href="#" class="text-blue-600 font-semibold text-xs hover:underline flex items-center gap-1 mb-3">SOP Mutasi Siswa &rarr;</a>
+                    </div>
+                    <div class="mt-auto w-full">
+                        <iframe src="https://drive.google.com/file/d/1T8QLgkDuRX8hSYI4aV4bE2nc99Z7DI7b/preview" class="w-full h-80 rounded border border-gray-200"></iframe>
+                    </div>
+                </div>
+
+                <div class="border border-gray-100 p-6 rounded-xl shadow-sm bg-gray-50 hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-3 mb-3">
+                            <span class="text-3xl">👨‍👩‍👦</span>
+                            <h4 class="font-bold text-lg text-gray-800">Pelayanan Legalisir Berkas</h4>
+                        </div>
+                        <p class="text-xs text-gray-600 mb-4">Panduan Layanan Legalisir Berkas.</p>
+                        <a href="#" class="text-blue-600 font-semibold text-xs hover:underline flex items-center gap-1 mb-3">SOP Legalisir Berkas &rarr;</a>
+                    </div>
+                    <div class="mt-auto w-full">
+                        <iframe src="https://drive.google.com/file/d/1U4g8eUcFFp1FHIIpiX8h22J5efQ390Zh/preview" class="w-full h-80 rounded border border-gray-200"></iframe>
+                    </div>
+                </div>
+
+                <div class="border border-gray-100 p-6 rounded-xl shadow-sm bg-gray-50 hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center space-x-3 mb-3">
+                            <span class="text-3xl">🏪</span>
+                            <h4 class="font-bold text-lg text-gray-800">Pelayanan Koperasi</h4>
+                        </div>
+                        <p class="text-xs text-gray-600 mb-4">Pemesanan seragam resmi sekolah, atribut pramuka, buku tulis, serta kelengkapan belajar siswa lainnya.</p>
+                        <a href="#" class="text-blue-600 font-semibold text-xs hover:underline flex items-center gap-1 mb-3">SOP Pelayanan Koperasi &rarr;</a>
+                    </div>
+                    <div class="mt-auto w-full">
+                        <iframe src="https://drive.google.com/file/d/13Gygt-FF9hHrw7hJXa66fc01Vf_kj-42/preview" class="w-full h-80 rounded border border-gray-200"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sarpras" class="container mx-auto px-6 py-16 bg-gray-50 scroll-mt-16">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold text-gray-900">Sarana & Prasarana</h3>
+            <div class="w-16 h-1 bg-blue-600 mx-auto mt-2"></div>
+        </div>
+        <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <div class="bg-white border border-gray-100 p-6 rounded-xl shadow-sm flex items-center space-x-4">
+                <span class="text-3xl">📐</span>
+                <div>
+                    <p class="text-xs text-gray-500 uppercase tracking-wider">Luas Tanah</p>
+                    <p class="text-lg font-bold text-gray-800">5.280 m²</p>
+                </div>
+            </div>
+            <div class="bg-white border border-gray-100 p-6 rounded-xl shadow-sm flex items-center space-x-4">
+                <span class="text-3xl">⚡</span>
+                <div>
+                    <p class="text-xs text-gray-500 uppercase tracking-wider">Sumber Listrik</p>
+                    <p class="text-lg font-bold text-gray-800">PLN</p>
+                </div>
+            </div>
+            <div class="bg-white border border-gray-100 p-6 rounded-xl shadow-sm flex items-center space-x-4">
+                <span class="text-3xl">🌐</span>
+                <div>
+                    <p class="text-xs text-gray-500 uppercase tracking-wider">Akses Internet</p>
+                    <p class="text-lg font-bold text-gray-800">Fibre Optic</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="bg-gray-900 text-white py-16 px-6 scroll-mt-16">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-12">
+                <h3 class="text-3xl font-bold">Kontak & Hubungi Kami</h3>
+                <p class="text-gray-400 mt-2">Silakan hubungi administrasi sekolah pada jam kerja resmi.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-yellow-300">Lokasi & Alamat</h4>
+                    <p class="text-gray-300 mb-2"><strong>SD Negeri 2 Tekaran</strong></p>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                        Jalan Pandawa Gemantar, Kecamatan Selogiri,<br>
+                        Kabupaten Wonogiri, Provinsi Jawa Tengah, Indonesia (Kode Pos 57652).
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-yellow-300">Kontak Resmi</h4>
+                    <ul class="space-y-3 text-sm text-gray-300">
+                        <li class="flex items-center space-x-2"><span>📞</span> <span><strong>Telepon:</strong> 082226828628</span></li>
+                        <li class="flex items-center space-x-2"><span>✉️</span> <span><strong>Email:</strong> sdnduatekaran@yahoo.com</span></li>
+                        <li class="flex items-center space-x-2"><span>💻</span> <span><strong>Website Lama:</strong> <a href="http://sdn2tekaranslg.my.id" target="_blank" class="underline hover:text-white">sdn2tekaranslg.my.id</a></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-gray-500 py-8 text-center text-xs border-t border-gray-800">
+        <div class="container mx-auto px-6 mb-4">
+            <a href="https://www.lapor.go.id/" target="_blank" class="inline-flex items-center gap-2 bg-red-700 hover:bg-red-800 text-white font-semibold px-4 py-2 rounded shadow transition text-xs tracking-wide">
+                📢 Layanan Pengaduan Nasional: SP4N-LAPOR!
+            </a>
+        </div>
+        <p>&copy; 2026 SD Negeri 2 Tekaran. Hak Cipta Dilindungi.</p>
+        <p class="mt-1 text-gray-600">Sinkronisasi Data Pokok Pendidikan Kemendikdasmen RI</p>
+    </footer>
+
+</body>
+</html>
